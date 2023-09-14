@@ -4,7 +4,7 @@ import { useAppContext } from '@/contexts/AppContext';
 const CardsContainer = () => {
   const { shows, loading } = useAppContext();
   return (
-    <section>
+    <section className='bg-black'>
       <h2>Shows</h2>
       {!loading && (
         <div className='inner my-0 mx-auto max-w-[1200px] px-4'>
