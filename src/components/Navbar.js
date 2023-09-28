@@ -10,8 +10,8 @@ const Navbar = () => {
       </div>
       <nav className='hidden sm:block'>
         <ul className='flex justify-end items-center gap-4 text-yellow-300'>
-          <li>About</li>
-          <li>Contact</li>
+          {/* <li>About</li>
+          <li>Contact</li> */}
         </ul>
       </nav>
       <div className='sm:hidden'>
