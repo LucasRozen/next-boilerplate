@@ -1,13 +1,13 @@
 import '@/styles/globals.css';
-import { Inter } from 'next/font/google';
+import { Merriweather } from 'next/font/google';
 import { AppContextProvider } from '@/contexts/AppContext';
 
-const inter = Inter({ subsets: ['latin'] });
+const merriweather = Merriweather({ subsets: ['latin'], weight: ['300','400','700','900'] });
 
 export default function App({ Component, pageProps }) {
   return (
     <AppContextProvider>
-      <main className={`${inter.className} bg-black`}>
+      <main className={`${merriweather.className} bg-black`}>
         <Component {...pageProps} />
       </main>
     </AppContextProvider>
